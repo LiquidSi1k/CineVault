@@ -29,9 +29,9 @@ function App() {
     <>
       <div className="app">
         <a href="#">
-          <h1 className="text-3xl font-bold text-center">CineVault</h1>
+          <h1 className="text-3xl font-bold text-center m-3">CineVault</h1>
         </a>
-        <div className="border-2 rounded w-9/12 m-auto">
+        <div className="border-2 rounded w-9/12 m-auto my-2">
           <div className="flex justify-center">
             <input
               className=" p-1 m-1 w-full"
@@ -42,7 +42,7 @@ function App() {
               onKeyDown={handleSearchKeyDown}
             />
             <img
-              className="cursor-pointer w-[4vmin] p-1"
+              className="cursor-pointer w-[5vmin] p-1"
               src="../public/search.gif"
               alt="search"
               onClick={() => searchMovie(searchTerm)}
