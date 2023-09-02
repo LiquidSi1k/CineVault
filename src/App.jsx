@@ -31,12 +31,12 @@ function App() {
         <a href="#">
           <h1 className="text-3xl font-bold text-center m-3">CineVault</h1>
         </a>
-        <div className="border-2 rounded w-9/12 m-auto my-2">
+        <div className="border-2 rounded w-9/12 m-auto my-2 shadow-[rgba(6,_24,_44,_0.4)_0px_0px_0px_2px,_rgba(6,_24,_44,_0.65)_0px_4px_6px_-1px,_rgba(255,_255,_255,_0.08)_0px_1px_0px_inset]">
           <div className="flex justify-center">
             <input
-              className=" p-1 m-1 w-full"
+              className=" p-1 m-1 w-full rounded-md"
               type="text"
-              placeholder="Search your movie"
+              placeholder=" Search your movie"
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
               onKeyDown={handleSearchKeyDown}
