@@ -43,7 +43,7 @@ function App() {
             />
             <img
               className="cursor-pointer w-[5vmin] p-1"
-              src="../public/search.gif"
+              src="/public/search.gif"
               alt="search"
               onClick={() => searchMovie(searchTerm)}
             />
