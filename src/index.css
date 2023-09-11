@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  font-family: monospace, system-ui, Avenir, Arial, sans-serif;
+  font-family: monospace, system-ui, Arial, sans-serif;
 
   background: linear-gradient(
     to right bottom,
@@ -26,4 +26,9 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+}
+
+@font-face {
+  font-family: okami;
+  src: url(/src/assets/Okami.otf);
 }

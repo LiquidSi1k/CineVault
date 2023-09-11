@@ -1,3 +1,39 @@
 .read-the-docs {
   color: #888;
 }
+
+h1 {
+  font-family: okami, sans-serif;
+  color: #767e9c;
+  padding: 0 20px;
+  text-shadow: 1px 1px 2px black;
+}
+
+.featured-img {
+  color: aliceblue;
+  padding: 20vmin;
+  bottom: 0;
+}
+
+.featured {
+  transform: scale(0.95);
+}
+
+.search {
+  background: linear-gradient(
+    to right bottom,
+    #f9f9f9,
+    #dcdce4,
+    #bfc0cf,
+    #a1a5bb,
+    #828ba8,
+    #7e87a4,
+    #7a82a0,
+    #767e9c,
+    #8b8ea5,
+    #9f9faf,
+    #b1b1b9,
+    #c3c3c3
+  );
+  top: 0;
+}
